@@ -323,12 +323,13 @@ The dashboard includes analysis of:
 
 ### Executive Summary
 
-![Executive Summary](06_Screenshots/Executive_Summary.png)
+[![Executive Summary Dashboard](06_Screenshots/Executive_Summary.png.png)](06_Screenshots/Executive_Summary.png.png)
 
 ### Detailed Analysis
 
-![Detailed Analysis](06_Screenshots/Detailed_Analysis.png)
+[![Detailed Analysis Dashboard](06_Screenshots/Detailed_Analysis.png.png)](06_Screenshots/Detailed_Analysis.png.png)
 
+*Click an image to view the full-size dashboard screenshot.*
 ---
 
 ## Tools & Technologies
@@ -352,31 +353,26 @@ The dashboard includes analysis of:
 ```text
 Hospital-Readmission-Analytics/
 │
-├── 01_Data/
-│   └── diabetic_data.csv
-│
 ├── 02_Python_Analysis/
 │   ├── 01_data_validation.ipynb
 │   └── 02_data_quality_assessment.ipynb
 │
 ├── 03_SQL_Analysis/
-│   ├── hospital_readmission.db
-│   ├── hospital_readmission.sqbpro
-│   └── SQL_Analysis_Notes.md
+│   ├── SQL_Analysis_Notes.md
+│   └── hospital_readmission.sqbpro
 │
 ├── 04_PowerBI_Dashboard/
-│   ├── Hospital_Readmission_Analytics.pbix
-│   └── hospital_readmission_powerbi.csv
+│   └── Hospital_Readmission_Analytics.pbix
 │
 ├── 05_Report/
 │   └── Hospital_Readmission_Analytics_Report.pdf
 │
 ├── 06_Screenshots/
-│   ├── Executive_Summary.png
-│   └── Detailed_Analysis.png
+│   ├── Executive_Summary.png.png
+│   └── Detailed_Analysis.png.png
 │
+├── .gitignore
 └── README.md
-```
 
 ---
 
