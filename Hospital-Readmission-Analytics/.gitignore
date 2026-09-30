@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Power BI temporary/backup files
+*.pbi\localstorage
+*.pbi\cache
+*.pbi\temp
+# Project data and database files
+01_Data/diabetic_data.csv
+03_SQL_Analysis/hospital_readmission.db
+04_PowerBI_Dashboard/hospital_readmission_powerbi.csv
